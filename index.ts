@@ -46,6 +46,7 @@ setInterval(() =>{
             pilot.notify("Do not sleep", "Your mouse was moved just now.");
         }
     }
+    last = pos;
 }, args.interval);
 
 console.log("Ready");
